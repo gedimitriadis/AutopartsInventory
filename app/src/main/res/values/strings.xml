@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Autoparts Inventory</string>
+    <string name="no_data">There is no auto parts to display. Press the button on the top right corner to add a part</string>
+    <string name="part_image">Part_image</string>
+    <string name="part_name">Part name :</string>
+    <string name="quantity">Quantity :</string>
+    <string name="price_in">Price in € :</string>
+    <string name="supplier_email">Supplier email :</string>
+    <string name="sale">sale</string>
+    <string name="Detail_title_Edit_part">Edit Part</string>
+    <string name="Detail_title_New_part">New Part</string>
+    <string name="Invalid_quantity">Quantity must be larger than 0</string>
+    <string name="Invalid_name">You must enter a valid name</string>
+    <string name="Invalid_image">You must enter a valid image</string>
+    <string name="Invalid_price">You must enter a valid price</string>
+    <string name="Invalid_SupplierMail">You must enter a valid suppliers email</string>
+    <string name="Successful_addition">The part was added successfully</string>
+    <string name="Successful_update">The part was updated successfully</string>
+    <string name="Successful_deletion">The part was deleted successfully</string>
+    <string name="Unsuccessful_deletion">The part was not deleted</string>
+    <string name="before_deletion">Are you sure you want to delete this part?</string>
+    <string name="SayYes">Yes</string>
+    <string name="SayNo">No</string>
+    <string name="leaveWithoutSave">Exit without saving?</string>
+    <string name="Insert_update_failure">Something went wrong with update/addision of the part</string>
+    <string name="No_available_parts">There are no parts in stock. Please contact the supplier</string>
+    <string name="part_name_detail">Part name</string>
+    <string name="order_from_supplier_detail">order from supplier</string>
+    <string name="price_in_detail">Price in €</string>
+    <string name="supplier_mail_detail">Supplier mail</string>
+    <string name="select_part_image">select part image</string>
+</resources>

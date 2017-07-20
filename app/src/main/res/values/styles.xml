@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin8</item>
+    </style>
+
+    <style name="InitialImageStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="labelStyle">
+        <item name="android:layout_width">@dimen/width120</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/LabelTextColor</item>
+    </style>
+
+    <style name="DataStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin8</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="DataStyleDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin8</item>
+        <item name="android:layout_marginBottom">@dimen/margin16</item>
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name = "ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/LabelTextColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:layout_margin">@dimen/margin8</item>
+    </style>
+
+    <style name = "ImageViewButtons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

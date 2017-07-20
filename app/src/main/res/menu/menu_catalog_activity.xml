@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatalogActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_circle_outline_white_36dp"
+        android:title="add_button"
+        app:showAsAction="always" />
+
+</menu>

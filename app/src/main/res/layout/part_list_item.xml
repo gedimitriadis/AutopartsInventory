@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <!-- part image-->
+    <ImageView
+        android:id="@+id/Image_View"
+        style="@style/imageStyle"
+        android:src="@drawable/no_image_available"
+        android:contentDescription="@string/part_image" />
+
+    <!-- part data-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin8"
+        android:orientation="vertical"
+        >
+
+        <!-- part name-->
+        <LinearLayout
+            style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:text="@string/part_name"
+                style="@style/labelStyle" />
+
+            <TextView
+                android:id="@+id/name_TextView"
+                style="@style/DataStyle"/>
+        </LinearLayout>
+
+        <!-- part quantity-->
+        <LinearLayout
+            style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:text="@string/quantity"
+                style="@style/labelStyle"/>
+
+            <TextView
+                android:id="@+id/quantity_TextView_listItem"
+                style="@style/DataStyle"
+                />
+        </LinearLayout>
+
+        <!-- part price-->
+        <LinearLayout
+            style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:text="@string/price_in"
+                style="@style/labelStyle"/>
+
+            <TextView
+                android:id="@+id/price_TextView"
+                style="@style/DataStyle"
+                />
+        </LinearLayout>
+
+        <!-- part supplier email-->
+        <LinearLayout
+            style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:text="@string/supplier_email"
+                style="@style/labelStyle"/>
+
+            <TextView
+                android:id="@+id/supplier_TextView"
+                style="@style/DataStyle"/>
+        </LinearLayout>
+
+       <!-- sale button -->
+        <Button
+            android:id="@+id/ButtonSale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sale"
+            android:focusable="false"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

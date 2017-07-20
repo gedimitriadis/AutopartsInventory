@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.autopartsinventory.DetailActivity">
+
+        <!-- Part image -->
+        <ImageView
+            android:id="@+id/part_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/margin8"
+            android:src="@drawable/no_image_available" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- select image button -->
+            <Button
+                android:id="@+id/SelectImageButton"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_part_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8"
+            android:orientation="vertical">
+
+            <!-- part name-->
+            <LinearLayout style="@style/LinearLayoutStyle">
+
+                <EditText
+                    android:id="@+id/name_editText"
+                    style="@style/DataStyleDetail"
+                    android:hint="@string/part_name_detail" />
+
+            </LinearLayout>
+
+            <!-- part quantity-->
+            <LinearLayout style="@style/LinearLayoutStyle">
+
+                <!-- decrease quantity -->
+                <ImageView
+                    android:id="@+id/decreaseQuantity"
+                    style="@style/ImageViewButtons"
+                    android:src="@drawable/ic_remove_circle_outline_black_36dp" />
+
+                <!-- Part quantity -->
+                <TextView
+                    android:id="@+id/quantity_TextView_detail"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:textAlignment="center" />
+
+                <!-- increase quantity -->
+                <ImageView
+                    android:id="@+id/increaseQuantity"
+                    style="@style/ImageViewButtons"
+                    android:src="@drawable/ic_add_circle_outline_black_36dp" />
+
+                <!-- order from supplier button -->
+                <Button
+                    android:id="@+id/orberButton"
+                    style="@style/ButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/order_from_supplier_detail" />
+            </LinearLayout>
+
+            <!-- part price-->
+            <LinearLayout style="@style/LinearLayoutStyle">
+
+                <EditText
+                    android:id="@+id/price_editText"
+                    style="@style/DataStyleDetail"
+                    android:hint="@string/price_in_detail"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <!-- part supplier email-->
+            <LinearLayout style="@style/LinearLayoutStyle">
+
+                <EditText
+                    android:id="@+id/supplier_editText"
+                    style="@style/DataStyleDetail"
+                    android:hint="@string/supplier_mail_detail" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
